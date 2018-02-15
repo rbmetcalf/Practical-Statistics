@@ -1,7 +1,7 @@
 ## Practical Statistics for Physics & Astronomy 
- Universita di Bologna
+ Universita di Bologna, Dipartimento di Astronomia & Astrofisica (DIFA)
 
-This is the the course website for the course.
+This is the mean website for the course.
 
 Teachers: Ben Metcalf (robertbenton.metcalf@unibo,it) and Mahmoud Hashim (mahmoudyousif.hashim@unibo.it)
 
