@@ -8,6 +8,8 @@ Teachers: Ben Metcalf (robertbenton.metcalf@unibo,it) and Mahmoud Hashim (mahmou
 
 **Lecture Notes**
 
+A preliminary syllabus or table of contents for the notes is [here](https://github.com/rbmetcalf/Practical-Statistics/blob/master/syllabus.pdf).  This will be updated as the course progresses.
+
 The current version of the notes is available [here](https://github.com/rbmetcalf/Practical-Statistics/blob/master/notes.pdf).  They will be regularly updated.
 
 **Computer Lab Assignments**
