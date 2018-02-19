@@ -17,3 +17,11 @@ The current version of the notes is available [here](https://github.com/rbmetcal
 The first assignments are at [DataCamp](https://www.datacamp.com).  Our course on DataCamp is [here](https://www.datacamp.com/groups/practical-statitics-physics-astrophysics).  To gain access you must sign up for a DataCamp account and email your user name to us.  The assignments and due dates are listed there.
 
 Further assignments will be linked to this page.
+
+**References**
+
+DeGroot, M.H. "Probability and Statistics", 1986, Addison-Wesley.
+
+Gregory, P.C. "Bayesian Logical Data Analysis for the Physical Sciences", 2005, Cambridge University Press.
+
+Other references will be posted here as they become relevant.
