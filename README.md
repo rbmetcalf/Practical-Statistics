@@ -3,11 +3,43 @@
 
 This is the mean website for the course.
 
-Teachers: Ben Metcalf (robertbenton.metcalf@unibo,it) and Mahmoud Hashim (mahmoudyousif.hashim@unibo.it)
+Teachers: Ben Metcalf (robertbenton.metcalf@unibo.it) and Mahmoud Hashim (mahmoudyousif.hashim@unibo.it)
+
+**Description**
+
+Nontrivial data analysis problems are frequently encountered in modern astronomy, cosmology and physics. They require an understanding of statistical methods, practical skills with software tools and sometimes some ingenuity that comes with experience. The student will gain a practical knowledge of statistical methods and software as applied to many example problems. Basic probability theory will be covered before learning about Bayesian and frequentest inference problems, Monte Carlo techniques, Fisher matrices, random fields, parameter estimation, non-parametric tests, hypothesis testing, and supervised and unsupervised classification and regression problems. The student will become familiar with current software in Python for analysing data and fitting models while getting an understanding of the theory behind them.
+
+Starting with the basic probability theory and the classical probability distributions, the course will move on to the theory and practice of modern statistical methods that are widely used in physics and astronomy today. Analytic methods for curve fitting and frequentist parameter estimation will be covered. Numerical Monte Carlo and bootstrap methods will be covered. Then Bayesian inference methods and numerical methods for solving them will be studied. We will then move on to random fields and estimating correlation functions and power spectra from irregularly sampled data. Then image reconstruction from noisy data, Wiener filtering, maximum entropy and deconvolution methods.Finally, if time permits, we will introduce machine learning class and regression methods.
+
+The laboratory part of the course will start with a general introduction to python, if needed, and then cover the libraries by numpy and scikit through example projects. The lab will follow the lecture material with practical examples.
+
+Lecture topics:
+
+1. Fundimental properties of probability
+
+2. Random Variables
+
+3. Classic probability distributions
+
+4. Bayesian parameter estimation and model selection
+
+5. Frequentist hypotheses testing
+
+6. Fisher matrices
+
+7. Non-parametric tests
+
+8. Random Fields
+
+9. Image reconstruction and map making
+
+10. Numerical methods for the Bayesian Inference problem
+
+11. supervised and unsupervised machine learning methods for classification.
 
 **SIGNUP**
 
-To sign up for news about assignemts, changes in class times and location and for access to the computer lab assignemts you must signup [here](https://docs.google.com/spreadsheets/d/17i4gVVJeGUyKhs0pyxkJtaKd6tF3AbTofZ9CBM3-7kg/edit#gid=0).
+To sign up for news about assignments, changes in class times and location and for access to the computer lab assignments you must signup [here](https://docs.google.com/spreadsheets/d/17i4gVVJeGUyKhs0pyxkJtaKd6tF3AbTofZ9CBM3-7kg/edit#gid=0).
 
 
 **Lecture Notes**
@@ -23,6 +55,8 @@ The first assignments are at [DataCamp](https://www.datacamp.com).  Our course o
 Further assignments will be linked to this page.
 
 **References**
+
+The course will draws on many sources for its content and the lecture will not follow follow any particular text closely.  For reference some general statistics books with relevant material are :
 
 DeGroot, M.H. "Probability and Statistics", 1986, Addison-Wesley.
 
