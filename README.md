@@ -39,6 +39,8 @@ Lecture topics:
 
 To sign up for news about assignments, changes in class times and location and for access to the computer lab assignments you must signup [here](https://docs.google.com/spreadsheets/d/17i4gVVJeGUyKhs0pyxkJtaKd6tF3AbTofZ9CBM3-7kg/edit#gid=0).
 
+If you wish to be removed form the list send us an email.
+
 
 **Lecture Notes**
 
@@ -48,7 +50,7 @@ The current version of the notes is available [here](https://github.com/rbmetcal
 
 **Computer Lab Assignments**
 
-The first assignments are at [DataCamp](https://www.datacamp.com).  Our course on DataCamp is [here](https://www.datacamp.com/groups/practical-statitics-physics-astrophysics).  To gain access you must sign up for a DataCamp account and email your user name to us.  The assignments and due dates are listed there.
+The first assignments are at [DataCamp](https://www.datacamp.com).  Our course on DataCamp is [here](https://www.datacamp.com/groups/practical-statitics-physics-astrophysics).  To gain access you must sign up for a DataCamp account and fill in your name, surename and DataCamp username in the [signup sheet](https://docs.google.com/spreadsheets/u/1/d/17i4gVVJeGUyKhs0pyxkJtaKd6tF3AbTofZ9CBM3-7kg/edit?usp=sharing).  The assignments and due dates are listed there.
 
 Further assignments will be linked to this page.
 
