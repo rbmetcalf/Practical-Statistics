@@ -18,7 +18,7 @@ The current version of the notes is available [here](https://github.com/rbmetcal
 
 **Computer Lab Assignments**
 
-The first assignments are at [DataCamp](https://www.datacamp.com).  Our course on DataCamp is [here](https://www.datacamp.com/groups/practical-statitics-physics-astrophysics).  To gain access you must sign up for a DataCamp account and email your user name to us.  The assignments and due dates are listed there.
+The first assignments are at [DataCamp](https://www.datacamp.com).  Our course on DataCamp is [here](https://www.datacamp.com/groups/practical-statitics-physics-astrophysics).  To gain access you must sign up for a DataCamp account and fill in your name, surename and DataCamp username in the following [sheet] (https://docs.google.com/spreadsheets/u/1/d/17i4gVVJeGUyKhs0pyxkJtaKd6tF3AbTofZ9CBM3-7kg/edit?usp=sharing).  The assignments and due dates are listed there.
 
 Further assignments will be linked to this page.
 
