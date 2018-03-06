@@ -1,7 +1,32 @@
-practical statistics course website
-=====================
+#Intalling jupyter
 
-This is the the course website for the course.
+From the command line in your home directory:
 
-Teachers: Ben Metcalf (robertbenton.metcalf@unibo.it) and Mahmoud Hashim (mahmoudyousif.hashim@unibo.it)
+install jupyter
 
+```
+pip intall jupyter --user
+```
+Make an alias for jupter
+
+```
+pico ~/.bash_aliases
+```
+add the line
+
+```
+alias jupyter='~/.local/bin/jupyter'
+```
+and then save the file. (Ctr-x)
+
+Then type:
+
+```
+source .bashrc
+```
+
+To start jupyter:
+
+```
+jupyter notebook
+```

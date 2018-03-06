@@ -4,7 +4,7 @@
 <head>
 
 <meta charset="utf-8">
-
+<title>install_jupyter</title>
 
 
 <style type="text/css">
@@ -314,29 +314,33 @@ sup {
 
 <h1 id="toc_0">Intalling jupyter</h1>
 
-<p>On the UNIBO system.</p>
+<p>If you would like to install jupyter on your computer we recommend installing <a href="https://www.anaconda.com/download/#macos">Anaconda</a>.  It will have a simple way of launching jupyter.</p>
+
+<p>On the UNIBO system you need to:</p>
 
 <p>From the command line in your home directory:</p>
 
-<p>install jupyter</p>
+<p>1) install jupyter</p>
 
 <div><pre><code class="language-none">pip intall jupyter --user</code></pre></div>
 
-<p>Make an alias for jupter</p>
+<p>2) Make an alias for jupter so that you don&#39;t need to type in the path every time you start it.</p>
+
+<p>Create and open this file</p>
 
 <div><pre><code class="language-none">pico ~/.bash_aliases</code></pre></div>
 
-<p>add the line</p>
+<p>In the pico editor add the line</p>
 
 <div><pre><code class="language-none">alias jupyter=&#39;~/.local/bin/jupyter&#39;</code></pre></div>
 
 <p>and then save the file. (Ctr-x)</p>
 
-<p>Then type:</p>
+<p>Now you need to re-source your .bashrc file.  Type </p>
 
 <div><pre><code class="language-none">source .bashrc</code></pre></div>
 
-<p>To start jupyter:</p>
+<p>If all went well you should be able to start with jupyter:</p>
 
 <div><pre><code class="language-none">jupyter notebook</code></pre></div>
 
