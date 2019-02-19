@@ -334,16 +334,18 @@ sup {
   <p> 4) Run installation script </p>
   <div><pre><code class="language-none"> ./Anaconda2-2018.12-Linux-x86-64.sh </code></pre></div>
   <p> 5) Resource your shell setup </p>
-  <div><pre><code class="language-none"> source .bashrc </code></pre></div>
-  <p> 6) Run jupyter note book, </p>
-  <div><pre><code class="language-none"> ~/anaconda2/bin/jupyter-notebook </code></pre></div>
+  <div><pre><code class="language-none"> source ~/.bashrc </code></pre></div>
+  <p> 6) Run jupyter note book from your home directory, </p>
+  <div><pre><code class="language-none"> cd </code></pre></div>
+    <div><pre><code class="language-none"> ./anaconda2/bin/jupyter-notebook </code></pre></div>
  <p> This should pop up a web browser with jupyter-notebook running in it. </p>
 
  <p> To run jupyter-notebook you will need to type that line above.  If you want, you can make this simpler by making an alias for launching the program. </p>
 
- <div><pre><code class="language-none"> echo alias jupyter=' ~/anaconda2/bin/jupyter-notebook' >>  ~/.bash_aliases </code></pre></div>
-  <p> You will need to resource your .bashrc or open a new terminal before this works. </p>
-
+ <div><pre><code class="language-none"> echo alias jupyter-notebook='~/anaconda2/bin/jupyter-notebook' >>  ~/.bash_aliases </code></pre></div>
+  <p> You will need to resource your .bashrc or open a new terminal before this works. You should be able to launch it with the command </p>
+  <div><pre><code class="language-none"> jupyter-notebook </code></pre></div>
+  
      <h2 id="toc_0">Installing Anaconda (Mac)</h2>
 
        <p>1) Go to the website  <a href="https://www.anaconda.com/download/#macos">Anaconda</a> and upload
@@ -363,11 +365,11 @@ sup {
 
 <p>2) Make an alias for jupyter so that you don&#39;t need to type in the path every time you start it.</p>
 
-<p>Create an alias</p>
+<p>Create an alias for jupyter-notebook</p>
 
-<div><pre><code class="language-none"> echo alias jupyter=' ~/.local/bin/jupyter' >>  ~/.bash_aliases </code></pre></div>
+<div><pre><code class="language-none"> echo alias jupyter='~/.local/bin/jupyter' >>  ~/.bash_aliases </code></pre></div>
 
-<p>Now you need to re-source your .bashrc file.  Type </p>
+<p>Now you need to re-source your .bashrc file.  From your home drectory type </p>
 
 <div><pre><code class="language-none">source .bashrc</code></pre></div>
 
