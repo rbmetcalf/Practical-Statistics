@@ -312,9 +312,48 @@ sup {
 
 <body>
 
-<h1 id="toc_0">Installing jupyter</h1>
+  <h1 id="toc_0">Installing python and jupyter</h1>
 
-<p>If you would like to install jupyter on your computer we recommend installing <a href="https://www.anaconda.com/download/#macos">Anaconda</a>.  It will have a simple way of launching jupyter.</p>
+  <p>     There are several options for installing python and juptyer notebook.  You can do this in your UNIBO computer account or on your own computer if you prefer.  Anaconda is a distribution that includes python, juptyer and a number of other useful applications for developing python code.  I recommend that you install this because it will probably be easiest for you.  Alternatively you can install jupyter separately.  Python should be installed for your UNIBO account on the lab computers already.
+  </p>
+  
+
+   <h2 id="toc_0">Installing Anaconda (linux)</h2>
+
+  <p>1) Go to the website  <a href="https://www.anaconda.com/download/#macos">Anaconda</a> and upload
+    the linux python2.7 version.</p>
+
+  <p> This should create a file </p>
+  <div><pre><code class="language-none"> Scaricati/Anaconda2-2018.12-Linux-x86-64.sh </code></pre></div>
+  <p>Or something close to that.</p>
+
+    <p>2). Change directory </p>
+  <div><pre><code class="language-none"> cd Scaricati/ </code></pre></div>
+ <p> 3) Make installation script exicutable </p>
+ <div><pre><code class="language-none"> chmod u+x Anaconda2-2018.12-Linux-x86-64.sh </code></pre></div>
+  <p> 4) Run installation script </p>
+  <div><pre><code class="language-none"> ./Anaconda2-2018.12-Linux-x86-64.sh </code></pre></div>
+  <p> 5) Resource your shell setup </p>
+  <div><pre><code class="language-none"> source ~/.bashrc </code></pre></div>
+  <p> 6) Run jupyter note book from your home directory, </p>
+  <div><pre><code class="language-none"> cd </code></pre></div>
+    <div><pre><code class="language-none"> ./anaconda2/bin/jupyter-notebook </code></pre></div>
+ <p> This should pop up a web browser with jupyter-notebook running in it. </p>
+
+ <p> To run jupyter-notebook you will need to type that line above.  If you want, you can make this simpler by making an alias for launching the program. </p>
+
+ <div><pre><code class="language-none"> echo alias jupyter-notebook='~/anaconda2/bin/jupyter-notebook' >>  ~/.bash_aliases </code></pre></div>
+  <p> You will need to resource your .bashrc or open a new terminal before this works. You should be able to launch it with the command </p>
+  <div><pre><code class="language-none"> jupyter-notebook </code></pre></div>
+  
+     <h2 id="toc_0">Installing Anaconda (Mac)</h2>
+
+       <p>1) Go to the website  <a href="https://www.anaconda.com/download/#macos">Anaconda</a> and upload
+	 the mac python2.7 version.</p>
+
+       <p>2) You should be able to launch the installer and everything will work automatically.</p>
+ 
+   <h2 id="toc_0">Installing jupyter on the UNIBO computers without Anaconda</h2>
 
 <p>On the UNIBO system you need to:</p>
 
@@ -326,17 +365,11 @@ sup {
 
 <p>2) Make an alias for jupyter so that you don&#39;t need to type in the path every time you start it.</p>
 
-<p>Create and open this file</p>
+<p>Create an alias for jupyter-notebook</p>
 
-<div><pre><code class="language-none">pico ~/.bash_aliases</code></pre></div>
+<div><pre><code class="language-none"> echo alias jupyter='~/.local/bin/jupyter' >>  ~/.bash_aliases </code></pre></div>
 
-<p>In the pico editor add the line</p>
-
-<div><pre><code class="language-none">alias jupyter=&#39;~/.local/bin/jupyter&#39;</code></pre></div>
-
-<p>and then save the file. (Ctr-x)</p>
-
-<p>Now you need to re-source your .bashrc file.  Type </p>
+<p>Now you need to re-source your .bashrc file.  From your home drectory type </p>
 
 <div><pre><code class="language-none">source .bashrc</code></pre></div>
 
