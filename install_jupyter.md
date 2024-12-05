@@ -1,6 +1,6 @@
 #Installing Python and Jupyter Notebooks
 
-If you would like to install python on your computer I recommend installing [Anaconda](https://www.anaconda.com/download/#macos).  It also has a simple a simple jupyter notebooks editor that works in a browser.  
+If you would like to install python on your computer I recommend installing [Minconda](https://docs.anaconda.com/miniconda/) or [Anaconda](https://www.anaconda.com/download/#macos).  It also has a simple a simple jupyter notebooks editor that works in a browser.  
 
 However, I recommend editing and running jupyter notebooks with microsoft's [VS Code](https://code.visualstudio.com/download).  You can also run notebooks in google's [Colab](https://colab.research.google.com) which requires not installation or notebooks.
 
